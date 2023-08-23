@@ -1,0 +1,44 @@
+main {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(180, 214, 177);
+    margin: auto;
+   
+    width: 105rem;
+    height: 50rem;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20rem;
+}
+
+.nombre {
+    font-size: 8rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+
+}
+.correo {
+    font-size: 4rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 2rem;
+    height: 74rem;
+    justify-content: center;
+}
+.info h1 {
+    font-size: 5rem;
+}
+.info span {
+    font-size: 2rem;
+}
